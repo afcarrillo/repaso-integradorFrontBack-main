@@ -10,13 +10,16 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "morgan": "^1.10.0",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "sequelize": "^6.25.3"
   },
   "scripts": {
     "start": "react-scripts start",
-    "server": "nodemon  server/main.js"
+    "server": "nodemon server/main.js"
   },
   "eslintConfig": {
     "extends": "react-app"
